@@ -3,4 +3,6 @@ project(Data_Structure_WBI)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Data_Structure_WBI main.cpp)
+add_executable(SeqLinkedList SeqLinkedList.cpp)
+add_executable(tmp tmp.cpp)
+add_executable(Practice1 Practice1.cpp)
