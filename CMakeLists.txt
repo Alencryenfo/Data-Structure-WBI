@@ -12,7 +12,7 @@ add_executable(1-5 Archive/SeqLinkedList/5.cpp)
 add_executable(1-6 Archive/SeqLinkedList/6.cpp)
 add_executable(1-7 Archive/SeqLinkedList/7.cpp)
 add_executable(SeqLinkedList Archive/SeqLinkedList/SeqLinkedList.cpp)
-add_executable(Stack Archive/SeqLinkedList/Stack.cpp)
+add_executable(_Stack Archive/SeqLinkedList/Stack.cpp)
 add_executable(2-1 Archive/GeneralizedList/1.cpp)
 add_executable(2-2 Archive/GeneralizedList/2.cpp)
 add_executable(2-3 Archive/GeneralizedList/3.cpp)
@@ -25,8 +25,8 @@ add_executable(quick_sort Archive/quick_sort.cpp)
 
 
 
-add_executable(Sequential-List-fixed 第二章-线性表/Sequential-List-fixed.cpp
-        第二章-线性表/Doubly-Linked-List.cpp)
+add_executable(Sequential-List-fixed 第二章-线性表/Sequential-List-fixed.cpp)
 add_executable(Sequential-List-unfixed.cpp 第二章-线性表/Sequential-List-unfixed.cpp)
 add_executable(Single-Linked-List 第二章-线性表/Single-Linked-List.cpp)
 add_executable(Doubly-Linked-List 第二章-线性表/Doubly-Linked-List.cpp)
+add_executable(Stack 第三章-栈和队列/Stack.cpp)
