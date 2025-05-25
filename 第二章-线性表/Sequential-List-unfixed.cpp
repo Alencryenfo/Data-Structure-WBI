@@ -11,9 +11,9 @@ typedef int DataType; // 保留一种类型定义即可
 typedef DataType ElemType; // 定义元素类型为DataType
 
 typedef struct SeqList {
-    DataType *elem; /* 存储元素连续空间的地址*/
-    int length; /* 表中元素的个数*/
-    int size; /* 表的大小 */
+    DataType *elem; // 存储元素连续空间的地址
+    int length; // 表中元素的个数
+    int size; // 表的大小
 } SeqList, *PSeqList; //合并写法
 
 void InitList(PSeqList pList) {
