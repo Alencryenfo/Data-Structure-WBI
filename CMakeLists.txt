@@ -21,4 +21,9 @@ add_executable(2-5 Archive/GeneralizedList/5.cpp)
 add_executable(2-6 Archive/GeneralizedList/6.cpp)
 add_executable(insert_sort Archive/insert_sort.cpp)
 add_executable(quick_sort Archive/quick_sort.cpp)
-add_executable(Sequential-List 第二章-线性表/Sequential-List-fixed.cpp)
+
+
+
+
+add_executable(Sequential-List-fixed 第二章-线性表/Sequential-List-fixed.cpp)
+add_executable(Sequential-List-unfixed.cpp 第二章-线性表/Sequential-List-unfixed.cpp)
